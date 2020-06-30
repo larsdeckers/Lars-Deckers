@@ -156,69 +156,6 @@ home.html
 
 
 
-<!-- Navaigatie -->
-
-
-<div class="w3-top">
-
-
- <div class="w3-bar w3-black w3-card">
-
-
-   <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-
-
-   <a href="home.html" class="w3-bar-item w3-button w3-padding-large" target="main">HOME</a>
-
-
-   <a href="FransBauerBiografie.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" target="main">BIOGRAFIE</a>
-
-
-   <a href="FransBauerNummers.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" target="main">TOP 10 NUMMERS</a>
-
-
-   <a href="FransBauerSocialMedia.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" target="main">SOCIAL MEDIA</a>
-
-
-   <a href="FransBauerWebshop.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" target="main">WEBSHOP</a>
-
-
-</div>
-
-
-
-
-
-
-
-<!-- De informatie van de navigatiebalk -->
-
-
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-
-
- <a href="home.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
-
-
- <a href="FransBauerBiografie.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BIOGRAFIE</a>
-
-
- <a href="FransBauerNummers.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOP 10 NUMMERS</a>
-
-
- <a href="FransBauerSocialMedia.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOCIAL MEDIA</a>
-
-
- <a href="FransBauerWebshop.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WEBSHOP</a>
-
-
-</div>
-
-
-
-
-
-
 
 </body>
 
