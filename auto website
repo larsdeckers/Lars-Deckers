@@ -1,0 +1,315 @@
+index.html
+<!DOCTYPE html>
+
+
+
+
+<html>
+
+
+<head>
+
+
+<link rel="stylesheet" type="text/css" href="Style.css">
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+
+
+
+
+
+
+<frameset rows="50,*" frameborder=0>
+
+
+ <frame name="header" src="header.html">
+
+
+ <frame name="main" src="home.html">
+
+
+</frameset>
+
+
+
+
+
+
+
+</html>
+
+
+home.html
+
+<!DOCTYPE html>
+
+
+
+
+<html>
+
+
+<head>
+
+
+<link rel="stylesheet" type="text/css" href="Style.css">
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+
+<body>
+
+
+
+
+
+
+
+<!-- Alle inhoud van de pagina -->
+
+
+<div class="header">
+
+
+<h1>Nissan GTR</h1>
+
+
+<p>Dit is de officiele fanpage van de Nissan GTR.</p>
+
+
+		
+
+
+<img src="https://media.nu.nl/m/m1oxdwfa8ouh_wd640.jpeg" width="640" height="360"/>
+
+
+	
+
+
+<p>Dit is de website van Lars.<br />Ik heb een grote liefde voor JDM cars, en dan met name de Nissan GTR.</p>
+
+
+</div>
+
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+
+
+<head>
+
+
+<link rel="stylesheet" type="text/css" href="Style.css">
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+
+<body>
+
+
+
+
+
+
+
+<!-- Navaigatie -->
+
+
+<div class="w3-top">
+
+
+ <div class="w3-bar w3-black w3-card">
+
+
+   <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+
+
+   <a href="home.html" class="w3-bar-item w3-button w3-padding-large" target="main">HOME</a>
+
+
+   <a href="FransBauerBiografie.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" target="main">BIOGRAFIE</a>
+
+
+   <a href="FransBauerNummers.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" target="main">TOP 10 NUMMERS</a>
+
+
+   <a href="FransBauerSocialMedia.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" target="main">SOCIAL MEDIA</a>
+
+
+   <a href="FransBauerWebshop.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" target="main">WEBSHOP</a>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- De informatie van de navigatiebalk -->
+
+
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+
+
+ <a href="home.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+
+
+ <a href="FransBauerBiografie.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BIOGRAFIE</a>
+
+
+ <a href="FransBauerNummers.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOP 10 NUMMERS</a>
+
+
+ <a href="FransBauerSocialMedia.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOCIAL MEDIA</a>
+
+
+ <a href="FransBauerWebshop.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WEBSHOP</a>
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+
+</html>
+
+  Style.css
+
+
+body {background-color: #8c8c8c;}
+
+
+.header {font-family: "Lato", sans-serif}
+
+
+p {
+
+
+color: WHite;
+
+
+position: relative; 
+
+
+    left: 1px;
+
+
+	bottom: 1px;
+
+
+}
+
+
+h1 {
+
+
+ color: White;
+
+
+ position: relative; 
+
+
+    left: 1px;	
+
+
+       bottom: 1px;
+
+
+}
+
+
+.header {
+
+
+       padding: 10px;
+
+
+}
+
+
+table, td, th {
+
+
+ border: 2px solid black;
+
+
+}
+
+
+table {
+
+
+ border-collapse: collapse;
+
+
+ width: 100%;
+
+
+}
+
+
+
+
+
+
+
+th {
+
+
+ height: 50px;
+
+
+}
+
